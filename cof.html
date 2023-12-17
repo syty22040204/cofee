@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 22px; 
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+            nav a {
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+                font-size: 24px; 
+            }
+
+                nav a:hover {
+                    background-color: #333;
+                    color: #fff;
+                }
+
+        section {
+            display: grid;
+            grid-template-rows: auto; 
+            padding: 20px;
+        }
+
+            section div {
+                margin-bottom: 20px; 
+            }
+
+            section img {
+                max-width: 100%;
+                height: auto;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Популярные виды кофе</h1>
+    </header>
+
+    <nav>
+        <a href="#espresso">Эспрессо</a>
+        <a href="#latte">Латте</a>
+        <a href="#cappuccino">Капучино</a>
+        <a href="#americano">Американо</a>
+    </nav>
+
+    <section>
+        <div id="espresso">
+            <h2>Эспрессо</h2>
+            <p>Крепкий и ароматный кофе, приготовленный путем прокачивания горячей воды через молотые кофейные зерна.</p>
+            <img src="espresso.jpg" width="500" height="500" alt="Эспрессо">
+        </div>
+        <div id="latte">
+            <h2>Латте</h2>
+            <p>Нежный кофе с молоком, обычно подается в стеклянной чашке с тонким слоем молочной пенки на верху.</p>
+            <img src="latte.jpg" width="500" height="500" alt="Латте">
+        </div>
+        <div id="cappuccino">
+            <h2>Капучино</h2>
+            <p>Кофе с равными долями эспрессо, молока и молочной пенки, обычно украшенный какао или корицей.</p>
+            <img src="cappuccino.jpg" width="500" height="500" alt="Капучино">
+        </div>
+        <div id="americano">
+            <h2>Американо</h2>
+            <p>Слабый кофе, приготовленный добавлением горячей воды к эспрессо, что делает его похожим на обычный кофе.</p>
+            <img src="americano.jpg" width="500" height="500" alt="Американо">
+        </div>
+    </section>
+
+</body>
+</html>
